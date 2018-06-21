@@ -1,0 +1,12 @@
+*.swp
+*.swo
+
+*.exe
+*.x
+*.c
+*.h
+*.o
+*.makefile
+*.mat
+*.json
+*.xml
