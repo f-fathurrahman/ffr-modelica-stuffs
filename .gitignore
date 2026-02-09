@@ -1,4 +1,13 @@
+IMG_*
+OLD_*
+ORIG_*
 *.png
+
+*.log
+*.libs
+*.bin
+*.csv
+*.bat
 
 *.swp
 *.swo

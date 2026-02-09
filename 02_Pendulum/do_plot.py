@@ -1,5 +1,3 @@
-from __future__ import print_function
-
 import scipy.io
 import sys
 
@@ -16,6 +14,6 @@ plt.clf()
 plt.plot(x, y1, linewidth=2, label="y1")
 plt.plot(x, y2, linewidth=2, label="y2")
 plt.legend()
-plt.savefig("plot.png", dpi=300)
+plt.savefig("IMG_plot.png", dpi=150)
 
 
