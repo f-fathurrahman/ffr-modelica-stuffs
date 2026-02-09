@@ -1,0 +1,13 @@
+loadModel(Modelica);
+
+//loadFile("SimpleDC.mo");
+//simulate(SimpleDC, stopTime=1, outputFormat="csv");
+
+loadFile("RCCircuit.mo");
+print(getErrorString());
+
+checkModel(RCCircuit);
+print(getErrorString());
+
+simulate(RCCircuit, stopTime=1, outputFormat="csv");
+print(getErrorString());
