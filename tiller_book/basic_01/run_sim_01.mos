@@ -1,6 +1,11 @@
 loadModel(Modelica);
 
-loadFile("FirstOrder.mo");
-checkModel(FirstOrder);
-simulate(FirstOrder, stopTime=10.0, outputFormat="csv");
+//loadFile("FirstOrder.mo");
+//checkModel(FirstOrder);
+//simulate(FirstOrder, stopTime=10.0, outputFormat="csv");
+//print(getErrorString());
+
+loadFile("FirstOrderInitial.mo");
+checkModel(FirstOrderInitial);
+simulate(FirstOrderInitial, stopTime=10.0, outputFormat="csv");
 print(getErrorString());
